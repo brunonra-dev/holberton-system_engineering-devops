@@ -1,2 +1,2 @@
 #!/bin/bash
-find * -execdir chmod +x 
+find * -execdir chmod a+x 
