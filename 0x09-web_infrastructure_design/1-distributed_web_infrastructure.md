@@ -1,4 +1,4 @@
-# 1. Distributed web infrastructure
+# 1. Distributed web
 
 ![diagram](distributed_web_infrastructure.jpg)
 
