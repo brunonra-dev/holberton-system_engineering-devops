@@ -1,4 +1,4 @@
-# 0. Simple web stack
+# 1. Distributed web infrastructure
 
 ![diagram](distributed_web_infrastructure.jpg)
 
