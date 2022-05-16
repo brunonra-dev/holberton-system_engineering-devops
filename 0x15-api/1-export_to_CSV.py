@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Export to CSV"""
+"""Gather data from an API"""
 import csv
 import requests
 from sys import argv
