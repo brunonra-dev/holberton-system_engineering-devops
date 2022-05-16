@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """Gather data from an API"""
-from re import I
 import requests
 from sys import argv
 
@@ -15,8 +14,8 @@ tasksdone = 0
 
 for item in todo:
     if item["userId"] == int(argv[1]):
-        tasks.append(item["title"])
         if item["completed"]:
+            tasks.append(item["title"])
             tasksdone += 1
 
 print("Employee {} is done with tasks({}/{}):"
